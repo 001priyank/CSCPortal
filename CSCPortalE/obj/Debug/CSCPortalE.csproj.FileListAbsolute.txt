@@ -1,0 +1,15 @@
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\CSCPortalE\CSCPortalE\obj\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\CSCPortalE\CSCPortalE\bin\CSCPortalE.dll
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\CSCPortalE\CSCPortalE\bin\CSCPortalE.pdb
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\CSCPortalE\CSCPortalE\obj\Debug\CSCPortalE.dll
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\CSCPortalE\CSCPortalE\obj\Debug\CSCPortalE.pdb
+C:\Documents and Settings\singhpr\My Documents\Visual Studio 2010\Projects\CSCPortalE\CSCPortalE\bin\CSCPortalE.dll
+C:\Documents and Settings\singhpr\My Documents\Visual Studio 2010\Projects\CSCPortalE\CSCPortalE\bin\CSCPortalE.pdb
+C:\Documents and Settings\singhpr\My Documents\Visual Studio 2010\Projects\CSCPortalE\CSCPortalE\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\singhpr\My Documents\Visual Studio 2010\Projects\CSCPortalE\CSCPortalE\obj\Debug\CSCPortalE.dll
+C:\Documents and Settings\singhpr\My Documents\Visual Studio 2010\Projects\CSCPortalE\CSCPortalE\obj\Debug\CSCPortalE.pdb
+C:\Documents and Settings\singhpr\Desktop\CSCPortalE\CSCPortalE\bin\CSCPortalE.dll
+C:\Documents and Settings\singhpr\Desktop\CSCPortalE\CSCPortalE\bin\CSCPortalE.pdb
+C:\Documents and Settings\singhpr\Desktop\CSCPortalE\CSCPortalE\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\singhpr\Desktop\CSCPortalE\CSCPortalE\obj\Debug\CSCPortalE.dll
+C:\Documents and Settings\singhpr\Desktop\CSCPortalE\CSCPortalE\obj\Debug\CSCPortalE.pdb

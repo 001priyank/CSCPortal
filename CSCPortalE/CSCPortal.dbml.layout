@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 11.25" name="CSCPortal">
+  <DataContextMoniker Name="/CSCPortalDataContext" />
+  <nestedChildShapes>
+    <classShape Id="42ee125a-786a-47d6-ab3d-56418869de98" absoluteBounds="0.875, 0.75, 2, 1.75354248046875">
+      <DataClassMoniker Name="/CSCPortalDataContext/tbCabRegistration" />
+      <nestedChildShapes>
+        <elementListCompartment Id="19db17fc-27da-4093-a844-53445730b7db" absoluteBounds="0.89, 1.21, 1.9700000000000002, 1.19354248046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8f9935d2-72d1-40f6-a990-05bcadd9548d" absoluteBounds="0.75, 3.25, 2, 1.26050048828125">
+      <DataClassMoniker Name="/CSCPortalDataContext/tbCabRouteLocation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9556cffe-5ad9-4b8c-bbbd-159f47327992" absoluteBounds="0.765, 3.71, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e641a3d6-db2e-48e7-a4c5-64cd762eb2d5" absoluteBounds="1.25, 5.125, 2, 1.0961531575520833">
+      <DataClassMoniker Name="/CSCPortalDataContext/tbCSCInitiativeRouteMapping" />
+      <nestedChildShapes>
+        <elementListCompartment Id="07aba4e6-fef6-4ff3-9e86-0e352f6030a0" absoluteBounds="1.2650000000000001, 5.585, 1.9700000000000002, 0.53615315755208326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="629aa803-748c-4bf0-9fab-f52a4c8eeb4f" absoluteBounds="1.375, 7.125, 2, 1.5891951497395831">
+      <DataClassMoniker Name="/CSCPortalDataContext/tbEmp" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e5be64a6-7d17-42b1-a153-7f3564e83750" absoluteBounds="1.3900000000000001, 7.5850000000000009, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4e643b10-ce56-4214-ba17-8dc302bd67e5" absoluteBounds="3.375, 1.375, 2, 1.26050048828125">
+      <DataClassMoniker Name="/CSCPortalDataContext/tbCabRoute" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b5dd0d9e-9446-488c-b965-170c787d0efc" absoluteBounds="3.3899999999999997, 1.835, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="aff2e8ea-58c8-4313-8412-f69c90a80023" absoluteBounds="3.75, 6, 2, 2.24658447265625">
+      <DataClassMoniker Name="/CSCPortalDataContext/tbCSCInitiativeTeam" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fc8eb7c8-beb8-4ce3-82d8-c38e1af65f03" absoluteBounds="3.7649999999999997, 6.46, 1.9700000000000002, 1.68658447265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="91cb7eb8-e3bf-425c-8c1e-35c7869dce85" absoluteBounds="3.625, 3.75, 2, 1.9178898111979166">
+      <DataClassMoniker Name="/CSCPortalDataContext/tbCSCInitiative" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dde058b3-7027-40cf-9d41-af6700e4398e" absoluteBounds="3.6399999999999997, 4.21, 1.9700000000000002, 1.3578898111979165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e9dbea38-2900-4a87-8dcf-6f7f6ed9d695" absoluteBounds="2.875, 9.75, 2, 1.26050048828125">
+      <DataClassMoniker Name="/CSCPortalDataContext/tbEmpInCSCInitiativeTeam" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2e2c1d1b-d798-4a8a-a66e-a06cd5e62d1a" absoluteBounds="2.89, 10.21, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9f42f1a7-afb5-4e55-ae35-5ed69ce1c756" absoluteBounds="4, 0.75, 2, 1.0961531575520833">
+      <DataClassMoniker Name="/CSCPortalDataContext/tbStatus" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2818df78-2c58-4fa8-af3c-61af8c27fdb0" absoluteBounds="4.015, 1.21, 1.9700000000000002, 0.53615315755208326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="05e77a62-41df-45a5-93f8-29c36577b279" absoluteBounds="4.375, 3, 2, 2.24658447265625">
+      <DataClassMoniker Name="/CSCPortalDataContext/tbDream" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5224af5d-0868-41d7-8eb5-235d7e317f85" absoluteBounds="4.39, 3.46, 1.9700000000000002, 1.68658447265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

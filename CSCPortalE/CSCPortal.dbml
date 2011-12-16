@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="CSCPortal" Class="CSCPortalDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\CSCPortal.mdf;Integrated Security=True;User Instance=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="CSCPortalConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tbCabRegistration" Member="tbCabRegistrations">
+    <Type Name="tbCabRegistration">
+      <Column Name="CabRegistrationID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CSCInitiativeID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EmpID" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="CabRouteID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Status" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbCabRouteLocation" Member="tbCabRouteLocations">
+    <Type Name="tbCabRouteLocation">
+      <Column Name="RoutePointID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RoutePointName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CabRouteID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbCSCInitiativeRouteMapping" Member="tbCSCInitiativeRouteMappings">
+    <Type Name="tbCSCInitiativeRouteMapping">
+      <Column Name="CSCInitiativeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CabRouteID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbEmp" Member="tbEmps">
+    <Type Name="tbEmp">
+      <Column Name="EmpID" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmpName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Location" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbCabRoute" Member="tbCabRoutes">
+    <Type Name="tbCabRoute">
+      <Column Name="CabRouteID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CabRouteName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CSCInitiativeID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbCSCInitiativeTeam" Member="tbCSCInitiativeTeams">
+    <Type Name="tbCSCInitiativeTeam">
+      <Column Name="CSCInitiativeID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TeamID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TeamName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EmpID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IsSPOC" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="DLID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Location" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="HomePage" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbCSCInitiative" Member="tbCSCInitiatives">
+    <Type Name="tbCSCInitiative">
+      <Column Name="CSCInitiativeID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CSCInitiativeName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TeamID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Location" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DLID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="HomePage" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbEmpInCSCInitiativeTeam" Member="tbEmpInCSCInitiativeTeams">
+    <Type Name="tbEmpInCSCInitiativeTeam">
+      <Column Name="TeamID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmpID" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CSCInitiativeID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbStatus" Member="tbStatus">
+    <Type Name="tbStatus">
+      <Column Name="STATUSID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STATUSNAME" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbDream" Member="tbDreams">
+    <Type Name="tbDream">
+      <Column Name="DID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DTITLE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DDESCRIPTION" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="EMPID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EMPNAME" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="LOCATION" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SUBMITTEDDATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="STATUSID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CONTACTPERSON" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
